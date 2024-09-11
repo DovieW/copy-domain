@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Root Domain",
+    "version": "0.1.0",
+    "description": "Adds a context menu option to copy the root domain of a link.",
+    "permissions": [
+      "contextMenus",
+      "scripting",
+      "clipboardWrite"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
