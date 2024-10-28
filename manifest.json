@@ -5,8 +5,7 @@
     "description": "Adds a context menu option to copy the root domain of a link.",
     "permissions": [
       "contextMenus",
-      "scripting",
-      "clipboardWrite"
+      "scripting"
     ],
     "icons": {
       "128": "logo128.png"
