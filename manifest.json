@@ -5,16 +5,13 @@
     "description": "Adds a context menu option to copy the root domain of a link.",
     "permissions": [
       "contextMenus",
-      "scripting"
+      "scripting",
+      "activeTab"
     ],
     "icons": {
       "128": "logo128.png"
     },
-    "host_permissions": [
-      "<all_urls>"
-    ],
     "background": {
       "service_worker": "background.js"
     }
   }
-  
