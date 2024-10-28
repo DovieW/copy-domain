@@ -8,6 +8,9 @@
       "scripting",
       "clipboardWrite"
     ],
+    "icons": {
+      "128": "logo128.png"
+    },
     "host_permissions": [
       "<all_urls>"
     ],
